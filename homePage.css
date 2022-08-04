@@ -1,0 +1,486 @@
+.nav-logo{
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	font-style: italic;
+  margin-left: 10px;
+}
+
+.top{
+  margin-top: 0px;
+}
+
+.fixed-top{
+  position: absolute;
+}
+
+.secondDiv{
+	height: 760px;
+	background-color: rgb(113, 210, 210);
+}
+h4{
+	margin-left: 50px;
+	font-style: italic;
+	font-size: 40px;
+}
+.innerSecondDiv{
+	height: 80px;
+	width: 500px;
+	margin-left: 48px;
+};
+
+
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+ 
+
+.carousel-item {
+	height: 1000px;
+	min-height: 400px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.carousel-caption {
+	bottom: 200px;
+}
+.carousel-caption h5 {
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	align-items: center;
+	color: black;
+}
+.carousel-caption p {
+	width: 75%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-toggler {
+	background: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+
+
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-wrap{
+    width: 100%;
+    background: #fff;
+}
+.footer-wrap{
+    position: relative;
+    /*you can remove or edit this margin-top property when you are using this footer on your project. */
+    width:100%;
+    padding:40px;
+    background: rgb(46, 44, 44);
+}
+.footer-wrap-1{
+    display: flex;
+}
+.footer-section{
+    width:22%;
+    display:block;
+    padding:10px 35px;
+}
+.footer-section:last-of-type{
+    width:34%;
+}
+.footer-section p{
+    color:#fff;
+    font-size: 16px;
+}
+.footer-section h1{
+    font-size:22px;
+    color:#fff;
+    margin-bottom:8px;
+}
+.footer-section a{
+    color:#fff;
+    display: block;
+    text-decoration: none;
+    padding:4px 0px;
+}
+form{
+    position:relative;
+}
+form input{
+    position:absolute;
+    height:35px;
+    width: 220px;
+    margin:8px 0px;
+    border:none;
+    outline:none;
+    padding:6px;
+    font-size:14px;
+}
+form .btn{
+    height:35px;
+    background:rgb(79, 156, 69);
+    border:none;
+    padding:0px 6px;
+    margin:8px 0px;
+    position:absolute;
+    left:60%;
+    font-weight: 600;
+    cursor: pointer;
+    color:#fff;
+}
+.btn:hover{
+    background: rgb(107,204,94);
+}
+.line{
+    margin-top:20px;
+    width:100%;
+    height:1px;;
+    background: rgb(143, 142, 142);
+}
+.social-link{
+    padding-top:25px;
+    text-align: center;
+}
+.social-link a{
+    text-decoration: none;
+    height:26px;
+    display: inline-block;
+    width:26px;
+    padding:5px;
+    border-radius:20px;
+    margin:5px;
+    background: rgb(224, 222, 222);
+}
+.social-link a img{
+    width:14px;
+    height:14px;
+}
+.footer-bottom{
+    background: rgb(12, 12, 12);
+    width:100%;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom a{
+    color:#fff;
+    font-size:14px;
+    margin-left:20px;
+    text-decoration:none;
+}
+.first-box{
+    margin-left: 20px;
+}
+.last-box{
+    margin-right:20px;
+}
+
+.review{
+  padding-top: 50px;
+  font-size: 50px;
+}
+
+.container1{
+
+    box-sizing: border-box;
+    background-color: rgb(89, 141, 224);
+    padding: 30px;
+    }
+  
+  .container{
+  box-sizing: border-box;
+  display: flex;
+  background-color: rgb(124, 178, 211);
+  margin-top: -40px;
+  }
+  .card11{
+  width: 450px;
+  height: 450px;
+  margin: 30px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 4px black;
+  background-color: rgb(243, 44, 173);
+  text-align: justify;
+  
+  border-radius: 30px;
+  
+  color: rgb(255, 249, 249);
+  }
+  
+  
+  
+  .card1{
+    width: 250px;
+    margin: 100px;
+    padding: 10px;
+    height: 410px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px rgb(35, 255, 2);
+    background-color: rgb(1, 159, 159);
+    
+    }
+    
+  
+    .card2{
+      width: 250px;
+      margin-top: 140px;
+      margin-left: -80px;
+      height: 410px;
+      box-sizing: border-box;
+      box-shadow: 1px 2px 4px rgb(35, 255, 2);
+      background-color: rgb(30, 0, 255);
+      
+      }
+      
+  
+  
+  
+  
+  
+      .card3{
+        width: 250px;
+        margin-top: 160px;
+        margin-left: 20px;
+        height: 410px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px 4px rgb(35, 255, 2);
+        background-color: rgb(37, 188, 7);
+        
+        }
+        
+        .card5{
+          width: 250px;
+         margin-left: 1100px;
+         margin-top: -90px;
+          height: 350px;
+          box-sizing: border-box;
+        
+         
+          
+          }
+  
+  
+          .card6{
+            width: 450px;
+            margin-left: 100px;
+            margin-top: 50px;
+           
+            height: 250px;
+            box-sizing: border-box;
+            box-shadow: 1px 2px 4px rgb(194, 226, 189);
+            background-color: rgb(253, 8, 245);
+            
+            }
+  
+  
+            .card7{
+              width: 450px;
+             margin-left: 900px;
+             margin-top: -250px;
+              height: 250px;
+              box-sizing: border-box;
+              box-shadow: 1px 2px 4px rgb(35, 255, 2);
+              background-color: rgb(253, 8, 245);
+              
+              }
+  
+  
+  
+  
+  
+  p1{
+  
+  color: rgb(255, 255, 255);
+  margin: 20px;
+  
+  }
+  
+  
+  h3{
+  
+    color: rgb(253, 250, 252);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    
+    }
+  
+  
+  
+  .card-body{
+  
+      padding: 5px;
+  }
+  
+  
+  .card-body .card-title {
+      color: grey;
+      font-size: 18rem   ;
+      text-align: center;
+    }
+    
+    .card-body .card-desc{
+  
+  text-align: justify;
+  
+    }
+    
+  
+   
+    button3 {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: rgb(247, 218, 2);
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    } 
+  
+    
+    button1 {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: rgb(255, 0, 0);
+      text-align: center;
+      cursor: pointer;
+      width: 90%;
+      font-size: 18px;
+    } 
+    
+  
+    button2 {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: rgb(0, 229, 255);
+      text-align: center;
+      cursor: pointer;
+      width: 90%;
+      font-size: 18px;
+    } 
+  
+    .img2{
+  
+  
+  width: 100%;
+  height: 50%;
+  
+  
+    }
+  
+    .img1{
+  
+  
+      width: 180%;
+      height:110%;
+      
+      
+        }
